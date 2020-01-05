@@ -11,7 +11,7 @@ This project includes:
 
 The stats showed that top 20 unigrams already appear in 82% vietnamese names and top 200 unigrams appear in 99% Vietnamese names.
 
-|| Top  || Percentage of names contains ||
+| Top  | Percentage of names contains |
 | 20 | 	82.68% |
 | 40 |	90.88% |
 | 100 |	97.17% |
