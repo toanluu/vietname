@@ -1,8 +1,8 @@
 # A statistics about Vietnamese name
 
-Statistics of vietnamese names computed from a list of 115'000 full Vietnamese names I got from internet.
+Statistics of vietnamese names computed from a list of 115'000 Vietnamese full names I got from internet.
 
-The project includes:
+This project includes:
 
 1. unigrams.tsv: the word appear in vietmese names and frequency.
 2. bigrams.tsv: bigrams (2 words) in vietnamese names and frequency.
