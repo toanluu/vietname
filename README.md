@@ -11,7 +11,7 @@ This project includes:
 
 The stats showed that top 20 unigrams already appear in 82% vietnamese names and top 200 unigrams appear in 99% Vietnamese names. To search for recall of 90% vietnamese names from a database you just need an OR query of top 40 words in unigrams file.
 
-| Top  | Percentage of names contains |
+| Top Unigram  | Percentage of names contains |
 |-|-|
 | 20 | 	82.68% |
 | 40 |	90.88% |
