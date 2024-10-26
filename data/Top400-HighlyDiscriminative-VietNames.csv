@@ -1,0 +1,408 @@
+Name	Freq	Confidence
+nguyen	182978	1.0000
+thi	162359	0.9969
+hoang	46669	1.0000
+thanh	43284	0.9999
+ngoc	42388	0.9999
+pham	41413	0.9998
+anh	37455	0.9974
+minh	33380	0.9975
+thuy	23240	0.9997
+phuong	23013	0.9999
+dinh	22855	0.9944
+quang	18394	0.9999
+linh	15597	0.9928
+duy	11714	0.9998
+huy	11280	0.9992
+trung	11165	0.9996
+khanh	11125	0.9996
+dung	10940	0.9991
+quoc	10798	0.9999
+trang	10489	0.9991
+huong	10388	0.9996
+trang	9705	0.9999
+huu	9273	0.9998
+manh	8846	0.9997
+huyen	8330	1.0000
+nhu	7849	0.9997
+hieu	7492	0.9989
+nhat	7020	1.0000
+cuong	6655	0.9997
+giang	6572	0.9995
+nhi	5539	0.9995
+hoai	5525	0.9993
+binh	5524	0.9993
+phung	5510	0.9993
+bich	5352	0.9991
+phuc	5139	0.9998
+dat	4890	0.9992
+hanh	4707	0.9981
+uyen	4020	0.9983
+nhung	3913	1.0000
+phong	3646	0.9986
+tuyen	3495	0.9983
+phu	3472	0.9986
+quyen	3384	0.9991
+nhan	3327	0.9991
+thuong	3248	0.9982
+truc	3112	0.9997
+quy	3052	1.0000
+duyen	2956	0.9983
+nghia	2831	0.9996
+phi	2766	0.9982
+thinh	2700	0.9996
+phuoc	2675	1.0000
+hiep	2656	0.9989
+khoa	2453	1.0000
+oanh	2441	0.9996
+nguyet	2407	0.9996
+khac	2315	1.0000
+loc	2283	0.9983
+chinh	2243	0.9982
+hoan	2163	0.9959
+ninh	1754	1.0000
+tinh	1741	0.9971
+thuc	1582	0.9981
+khoi	1458	0.9993
+nghiem	1392	0.9986
+phat	1391	0.9950
+canh	1298	0.9977
+quyet	1279	0.9992
+khuong	1142	0.9956
+dac	1135	0.9930
+nha	941	1.0000
+kiet	905	0.9912
+sinh	900	0.9978
+nghi	891	1.0000
+nhut	809	1.0000
+luyen	789	0.9975
+khiem	579	0.9966
+xuyen	553	0.9928
+tiep	517	0.9942
+khue	486	0.9959
+doanh	465	0.9979
+nham	437	0.9932
+tuoi	432	1.0000
+thoai	406	0.9975
+khuyen	399	0.9975
+chuyen	399	1.0000
+nho	391	0.9974
+hoc	374	0.9920
+ngoan	358	0.9944
+nhien	338	1.0000
+muoi	322	1.0000
+duoc	264	0.9962
+nghiep	251	0.9960
+nuong	238	1.0000
+kinh	227	0.9913
+nguy	215	1.0000
+nhuan	211	1.0000
+that	211	0.9906
+phap	210	1.0000
+nhon	207	1.0000
+thuyet	190	1.0000
+hoanh	181	1.0000
+duyet	157	1.0000
+nhuong	151	1.0000
+nhai	124	1.0000
+kbuor	121	1
+tran van	6513	0.9995
+le van	5835	0.9898
+van vu	2945	0.9997
+bui van	2271	0.9991
+do van	2244	1.0000
+duc tran	2002	1.0000
+hong le	1975	1.0000
+thu tran	1975	1.0000
+dinh van	1949	1.0000
+le tran	1933	0.9995
+duong van	1931	1.0000
+duc le	1909	1.0000
+ha thu	1858	1.0000
+dang van	1854	0.9995
+hung van	1847	0.9995
+le thu	1778	1.0000
+truong van	1718	1.0000
+phan van	1709	1.0000
+ngo van	1600	1.0000
+le tuan	1546	1.0000
+tuan van	1491	1.0000
+bao tran	1480	1.0000
+tran tuan	1428	1.0000
+linh tran	1427	1.0000
+tran xuan	1395	0.9914
+le xuan	1374	1.0000
+ha van	1337	1.0000
+ha le	1300	1.0000
+my tran	1296	0.9908
+duc vu	1293	1.0000
+hong tran	1291	1.0000
+dinh tran	1283	1.0000
+thao tran	1272	1.0000
+van vo	1268	1.0000
+doan van	1252	1.0000
+kim tran	1248	1.0000
+le linh	1245	1.0000
+dinh le	1242	1.0000
+le my	1239	1.0000
+hai van	1183	1.0000
+le thao	1164	1.0000
+hung tran	1143	1.0000
+hien thu	1122	1.0000
+ha tran	1113	1.0000
+hai tran	1104	1.0000
+hung le	1099	1.0000
+hai le	1096	1.0000
+huynh van	1088	1.0000
+kim le	1052	1.0000
+tien tran	1040	1.0000
+tran viet	1038	1.0000
+kim ngan	1036	1.0000
+dinh vu	1034	1.0000
+luong van	1029	1.0000
+tien van	1027	1.0000
+le viet	1027	1.0000
+hai yen	1026	1.0000
+duc van	1025	1.0000
+thang van	1025	0.9981
+le vu	1017	1.0000
+dao van	1010	1.0000
+nam van	997	1.0000
+tran vu	985	0.9980
+tuan vu	982	1.0000
+thao thu	974	1.0000
+dang tran	968	1.0000
+ho van	961	1.0000
+mai van	956	1.0000
+trinh van	949	0.9989
+le tien	936	0.9989
+bui duc	926	1.0000
+linh my	896	1.0000
+hong vu	887	1.0000
+mai tran	876	1.0000
+le mai	873	0.9989
+thu vu	872	0.9989
+bao le	865	1.0000
+hang thu	840	1.0000
+linh vu	823	1.0000
+hung viet	811	1.0000
+nam tran	810	1.0000
+dang hai	804	1.0000
+hong van	771	1.0000
+huynh le	764	1.0000
+truong xuan	763	1.0000
+tu van	759	1.0000
+toan van	756	1.0000
+vu xuan	748	0.9987
+hien tran	747	0.9973
+cong tran	745	1.0000
+dang le	742	1.0000
+cao van	733	0.9838
+do duc	732	1.0000
+long van	727	1.0000
+tran tu	721	1.0000
+hoa le	719	1.0000
+tran yen	715	1.0000
+cong le	712	1.0000
+le truong	705	1.0000
+hai vu	702	0.9986
+le tu	699	0.9957
+hoa van	690	1.0000
+long tran	688	1.0000
+le nam	688	1.0000
+my tra	687	1.0000
+dong van	685	1.0000
+ha vu	676	1.0000
+do thu	675	1.0000
+dieu linh	672	1.0000
+bui thu	669	1.0000
+duong le	668	1.0000
+hoa tran	664	1.0000
+thien tran	653	1.0000
+do xuan	644	1.0000
+duong tran	643	1.0000
+luu van	642	1.0000
+lam van	641	1.0000
+thai van	639	1.0000
+le son	637	0.9984
+tien vu	634	1.0000
+hung vu	633	1.0000
+son tran	628	1.0000
+le trong	621	0.9984
+an tran	620	1.0000
+bui xuan	619	1.0000
+chi linh	611	0.9984
+tran trong	607	0.9984
+hien le	606	1.0000
+huynh tran	601	1.0000
+chi le	598	1.0000
+mai xuan	588	1.0000
+le tan	586	1.0000
+chu van	585	1.0000
+dinh tuan	582	1.0000
+ha my	577	1.0000
+le yen	576	1.0000
+thai tran	576	1.0000
+hien van	568	1.0000
+do hong	565	1.0000
+le trinh	564	1.0000
+linh van	563	1.0000
+dang thu	555	1.0000
+le ngan	553	1.0000
+thao van	553	1.0000
+viet vu	551	1.0000
+chi tran	549	0.9982
+le long	549	1.0000
+tran vy	547	0.9982
+lam tran	543	1.0000
+an le	542	0.9982
+duc duong	540	1.0000
+thu van	536	1.0000
+dinh duc	530	1.0000
+cong van	525	1.0000
+dang dinh	523	1.0000
+tung van	518	1.0000
+duc thang	518	1.0000
+hang le	517	1.0000
+tran vinh	516	0.9981
+lan tran	514	1.0000
+dinh hung	513	1.0000
+chien van	509	1.0000
+dang vu	509	1.0000
+do tuan	509	1.0000
+tan van	505	1.0000
+quan van	502	0.9980
+bui linh	500	1.0000
+tran truong	499	1.0000
+phan thu	498	1.0000
+le tung	497	0.9980
+thuan van	492	1.0000
+tam van	489	1.0000
+van vinh	489	1.0000
+bui tuan	489	1.0000
+dang hong	488	0.9959
+linh mai	488	1.0000
+van viet	488	1.0000
+truong vu	488	1.0000
+tran tuyet	488	0.9980
+do linh	488	1.0000
+dang duc	485	1.0000
+the tran	484	0.9979
+duc ngo	484	1.0000
+tuong vy	483	1.0000
+dang xuan	482	1.0000
+hong son	482	0.9959
+ha viet	481	1.0000
+le thang	481	1.0000
+le thai	480	0.9979
+ngan tran	480	0.9959
+bui hong	479	1.0000
+duong vu	478	1.0000
+le thien	478	1.0000
+le phan	477	1.0000
+huynh kim	476	1.0000
+hai nam	475	1.0000
+hong phan	474	0.9979
+thang tran	473	0.9979
+le vinh	472	0.9979
+long vu	471	1.0000
+dinh duong	471	1.0000
+ba le	471	1.0000
+le vy	465	1.0000
+duc viet	463	1.0000
+thu vo	463	1.0000
+duong hai	462	1.0000
+tam tran	460	1.0000
+dang tuan	458	1.0000
+cong dinh	457	1.0000
+dinh truong	454	1.0000
+an van	448	0.9978
+tran tung	447	1.0000
+lam le	445	1.0000
+cam tu	443	1.0000
+van vuong	442	1.0000
+thao vu	441	1.0000
+linh phan	441	1.0000
+le tam	439	1.0000
+tan tran	438	0.9977
+bui ha	436	1.0000
+ha hong	436	0.9977
+gia tran	436	1.0000
+dinh xuan	433	1.0000
+ta van	432	1.0000
+hang tran	432	1.0000
+ngo xuan	431	1.0000
+duong hong	430	1.0000
+ngo thu	430	1.0000
+dinh thu	429	1.0000
+duc truong	427	1.0000
+bao gia	426	1.0000
+hong vo	426	1.0000
+do tien	426	1.0000
+dinh tien	424	1.0000
+ha phan	421	0.9976
+dang linh	420	1.0000
+duc hung	418	1.0000
+ly van	418	1.0000
+mai tuyet	417	1.0000
+trinh xuan	415	1.0000
+lan le	414	1.0000
+bui hai	414	1.0000
+do ha	412	0.9952
+dang hung	411	1.0000
+do hung	410	0.9976
+do viet	409	1.0000
+quan tran	407	1.0000
+toan tran	407	1.0000
+doan le	407	1.0000
+dao xuan	405	1.0000
+son thai	405	1.0000
+ly tran	404	1.0000
+mai vu	403	1.0000
+ha linh	401	1.0000
+duc phan	400	1.0000
+dinh hai	399	1.0000
+huynh my	399	1.0000
+bui tien	399	1.0000
+nam vu	398	1.0000
+bui viet	394	1.0000
+ha hai	393	1.0000
+do hai	393	0.9975
+thien van	392	1.0000
+cong truong	390	1.0000
+thao vy	388	1.0000
+le tuyet	386	1.0000
+dang ha	383	1.0000
+duc tuan	382	1.0000
+huynh thu	382	1.0000
+hung xuan	382	1.0000
+tran trinh	381	1.0000
+dinh hong	380	1.0000
+trong vu	380	0.9948
+bui dinh	380	1.0000
+dinh do	380	1.0000
+bui hung	378	1.0000
+sang van	376	0.9973
+phan tuan	375	1.0000
+kim vo	375	1.0000
+le quan	374	1.0000
+phan tran	374	1.0000
+tran vo	374	1.0000
+le the	373	1.0000
+do le	371	1.0000
+kien van	370	1.0000
+kieu le	370	1.0000
+son vu	369	1.0000
+kim vu	368	1.0000
+kieu tran	368	1.0000
+duc long	367	1.0000
+bui thao	367	1.0000
+le vo	367	1.0000
+duong tuan	366	1.0000
+bui le	365	1.0000
+my truong	365	1.0000
+trieu van	364	0.9973
+dao duc	364	1.0000
+tai van	362	1.0000
+cong vu	362	1.0000
+duong xuan	362	1.0000
