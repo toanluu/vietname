@@ -2,7 +2,7 @@
 
 ## Introduction
 
-According to Wikipedia, more than [5 millions](https://en.wikipedia.org/wiki/Overseas_Vietnamese) overseas Vietnamese. Detect Vietnamese names from big database is useful for some community activities.
+According to Wikipedia, there are more than [5 millions](https://en.wikipedia.org/wiki/Overseas_Vietnamese) overseas Vietnamese in the world. Detect Vietnamese names from big global database is useful for some applications and community activities.
 
 Recognizing Vietnamese names poses a challenge due to their shared Latin characters and similar word forms with names from other countries. For instance, the name “Nguyen” (folding form of popular surname Nguyễn or name Nguyên) is easily identifiable as Vietnamese. However, widespread Vietnamese surnames like “Lê” when written without accents, can be confused with common French prepositions like “Le” and “Đỗ” may be mistaken for the English verb “Do”. Furthermore, some names, such as “Vân” or “Văn”, sound distinctly Vietnamese but, when written without diacritics, can be confused with the common Dutch name “Van”.
 
@@ -34,6 +34,7 @@ All names are normalization, which involves removing accents. For example, “Tr
 The top 10 unigrams and bigrams from Vietnamese names are presented in **Table 2**, revealing that a few tokens dominate the majority of names. Approximately 4,000 unigrams constitute over 635,000 Vietnamese names, with 124 of them classified as highly discriminative (primarily appearing in Vietnamese names but rarely in names from other nations). These 124 discriminative names encompass over 84% of Vietnamese names in our dataset, with “nguyen” being the most prevalent, accounting for nearly 9%. 
 
 **Table 2. Top 10 unigrams from ~635K Vietnamese names**
+
 | Unigram |  Percentage |
 |:---------------- | ----:|
 | nguyen | 8.90 |
@@ -68,6 +69,7 @@ A token or pair of tokens defined as *Higly Discriminative N-Gram* (HDN) if they
 The confidence score is calculated based on the estimated probability of a token being a Vietnamese name, derived from the dataset. However, we enhance the negative cases of tokens using a function to ensure that tokens frequently appearing in negative label names receive a very low confidence score. This negative amplification ensures that if a token is highly prevalent in Vietnamese names but is not rare in negative names, it is not considered highly discriminative. For example, name "le", appear in 180 negative names, which is only 0.3% of total 58152 names containing "le", but confidence score is 0.75, then it is not Higly Discriminative Unigram.
 
 **Table 3. Top 10 bigrams from ~635K Vietnamese names**
+
 | Bigram |  Percentage |
 |:---------------- | ----:|
 | tran van | 0.99
