@@ -33,7 +33,7 @@ All names are normalization, which involves removing accents. For example, “Tr
 
 The top 10 unigrams and bigrams from Vietnamese names are presented in **Table 2**, revealing that a few tokens dominate the majority of names. Approximately 4,000 unigrams constitute over 635,000 Vietnamese names, with 124 of them classified as highly discriminative (primarily appearing in Vietnamese names but rarely in names from other nations). These 124 discriminative names encompass over 84% of Vietnamese names in our dataset, with “nguyen” being the most prevalent, accounting for nearly 9%. 
 
-**Table 2. Top 10 unigrams and bigrams from 635,678 Vietnamese names**
+**Table 2. Top 10 unigrams from ~635K Vietnamese names**
 | Unigram |  Percentage |
 | :---------------- | ----: |
 | nguyen | 8.90 |
@@ -47,18 +47,45 @@ The top 10 unigrams and bigrams from Vietnamese names are presented in **Table 2
 | pham | 2.01 | 
 | anh | 1.82 |
 
-## Highly Discriminative N-Grams
-
-If we use all 4000 unigrams as the query to retrieve Vietnamese names we can have 100% recall. However the precision is very low. The experiment from out dataset showed that when using nearly 1500 unigrams the presion already drop to 50%. Easy see that among top 10 popular Vietnamese unigram, "le" and "van" certainly retrieve many fall positive cases of european name.
+If we use all 4000 unigrams as the query to retrieve Vietnamese names obviously we can reach to 100% recall. However the precision of result set is very low. The experiment from out dataset showed that when using nearly 1500 unigrams for query the precision already drops to 60% (Figure 1). Easyly see that among top 10 popular Vietnamese unigram, "le" and "van" certainly retrieve many fall positive cases which are European names.
 
 **Figure 1. Precision and Recall (%) when using only unigram for retrieval**
 ![PrecRecallUnigrams](https://github.com/user-attachments/assets/908273c1-6ae2-446d-a4b4-1befe4254aba)
 
+To incease the recall and keep high precison (prefer precision at 99.9% so that from a result set of 10'000 names, ~10 names are false positive), we introduce Highly Discriminative N-Grams for Vietnamese name retrieval.
 
-From what we observe in the big corpus of Vietnamese and international names, there are sets of tokens that appear only in Vietnamese names. For example “nguyen”, “huyen”, “phuong” are rarely found in the person’s name in other nations. They are considered highly discriminative unigrams. On the other hand, some unigrams, which are non-discriminative, and are common in both Vietnamese and foreign names, could be combined to create new highly discriminative bigrams. 
+## Highly Discriminative N-Grams
+
+From what we observe in our corpus of Vietnamese and international names, there are sets of tokens that appear only in Vietnamese names. For example “nguyen”, “huyen”, “phuong” are rarely found in the person’s name in other nations. They are considered highly discriminative unigrams. On the other hand, some unigrams, which are non-discriminative, and are common in both Vietnamese and foreign names, could be combined to create new highly discriminative bigrams. 
 
 For example “tran” and “van” are non-discriminative unigrams as they appear in other nationalities, however, when they are combined, this pair becomes a discriminative feature for the Viet- namese name “tran van”. This bigram “tran van” is a commonly occurring combination, typically representing the family name “Trần” along with the middle or first name “Văn” in Vietnam.
 
+A token or pair of tokens defined as *Higly Discriminative N-Gram* (HDN) if they satisfy the following criteria:
+
+* the _frequency_ appearing in positive names is bigger than a threshold. This threshold is used to filter out some spelling mistakes form of tokens in the training set or abnormal names. In the beginning, we set threshold to 10
+* the _confidence score_ is bigger than a threshold which is set high (0.995).
+
+The confidence score is calculated based on the estimated probability of a token being a Vietnamese name, derived from the dataset. However, we enhance the negative cases of tokens using a function to ensure that tokens frequently appearing in negative label names receive a very low confidence score. This negative amplification ensures that if a token is highly prevalent in Vietnamese names but is not rare in negative names, it is not considered highly discriminative. For example, name "le", appear in 180 negative names, which is only 0.3% of total 58152 names containing "le", but confidence score is 0.75, then it is not Higly Discriminative Unigram.
+
+**Table 3. Top 10 bigrams from ~635K Vietnamese names**
+| Bigram |  Percentage |
+| :---------------- | ----: |
+| tran van | 0.99
+| le van | 0.88 | 
+| van vu | 0.45 | 
+| bui van | 0.34 |
+| do van | 0.34 | 
+| duc tran | 0.30 | 
+| hong le | 0.30 | 
+| thu tran | 0.30 | 
+| dinh van | 0.29 | 
+| le van | 0.29 |
+
+Figure 2 shows that after using 100 Highly Discriminative Unigrams, we start to use Highly Discriminative Bigrams for retrieval, the presision of results set remain at 99.9%, and the recall start increasing to 98% at 2300 bigrams. 
+
+Using 500 HDNs for Vietnamese Name retrieval we can obtains recall at 95% and precision at 99.9%. If we want to limit number of queries to submit to a global database system (some systems limit number of queries submitted), with 69 unigrams and 31 bigrams, we can obtain recall at nearly 90% and precision at 99.9%.
+
+![PrecRecallNGrams](https://github.com/user-attachments/assets/b7515fc2-4d46-471c-a5e1-6e6711f36127)
 
 
 
