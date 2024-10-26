@@ -35,7 +35,7 @@ The top 10 unigrams and bigrams from Vietnamese names are presented in **Table 2
 
 **Table 2. Top 10 unigrams from ~635K Vietnamese names**
 | Unigram |  Percentage |
-| :---------------- | ----: |
+|:---------------- | ----:|
 | nguyen | 8.90 |
 | thi | 7.90 |
 | van | 3.74 | 
@@ -69,7 +69,7 @@ The confidence score is calculated based on the estimated probability of a token
 
 **Table 3. Top 10 bigrams from ~635K Vietnamese names**
 | Bigram |  Percentage |
-| :---------------- | ----: |
+|:---------------- | ----:|
 | tran van | 0.99
 | le van | 0.88 | 
 | van vu | 0.45 | 
@@ -81,11 +81,13 @@ The confidence score is calculated based on the estimated probability of a token
 | dinh van | 0.29 | 
 | le van | 0.29 |
 
-Figure 2 shows that after using 100 Highly Discriminative Unigrams, we start to use Highly Discriminative Bigrams for retrieval, the presision of results set remain at 99.9%, and the recall start increasing to 98% at 2300 bigrams. 
+Figure 2 shows that after using 100 HD-Unigrams for retrieval (which reach recall at 86%), we start to use HD-Bigrams as the retrieval on the experiment dataset, the presision of results remain at 99.9%, and the recall increases continuously to 98% with 2300 bigrams. 
 
-Using 500 HDNs for Vietnamese Name retrieval we can obtains recall at 95% and precision at 99.9%. If we want to limit number of queries to submit to a global database system (some systems limit number of queries submitted), with 69 unigrams and 31 bigrams, we can obtain recall at nearly 90% and precision at 99.9%.
+Using 500 HDNs for Vietnamese name retrieval we can obtains recall at 95% and precision at 99.9%. If we want to limit number of queries to submit at 100 (this is very practical constrain because some systems limit number of queries submitted), then with 69 HD-Unigrams and 31 HD-Bigrams, we can obtain recall ~90% and precision >99.9%.
 
 ![PrecRecallNGrams](https://github.com/user-attachments/assets/b7515fc2-4d46-471c-a5e1-6e6711f36127)
 
+## Appendix
 
+List of  more than 400 Hightly Discriminative Unigrams & Bigram can be [download here](https://github.com/toanluu/vietname/blob/master/data/Top400-HighlyDiscriminative-VietNames.csv). Please cite "Discriminative Vietnamese Names by VietSearch" if you use this dataset for any publication.
 
