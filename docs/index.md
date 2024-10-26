@@ -23,7 +23,7 @@ All names are normalization, which involves removing accents. For example, “Tr
 **Table 1. Overview of name dataset used in the research** 
 
 | Total names | 4,126,815 |
-| :---------------- | ----: |
+|:---------------- | ----:|
 | Positive names (Vietnamese names) | 635,678 |
 | Negative names (Non-Vietnamese names) | 3,491,137 |
 | Total tokens | 9,423,808 |
