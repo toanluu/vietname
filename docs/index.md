@@ -10,15 +10,15 @@ This research shows the statictics of Vietnamese name based on a big dataset and
 
 ## Dataset
 
-Dataset consists of positive and negative examples of Vietnamese names gathered from various sources: 
+The research dataset consists of positive and negative examples of Vietnamese names gathered from various sources: 
 
 * names extracted from the Vietnamese phonebook through web crawling,
 * student names from several universities in Vietnam,
-* names extracted from a European country’s phonebook via web crawling, (
+* names extracted from a European country’s phonebook via web crawling
 * names obtained from Wikipedia,
 * names sourced from LinkedIn profiles. 
 
-All names are normalization, which involves removing accents. For example, “Trần Văn” is transformed into “tran van”. Single-character tokens are excluded to reduce the risk of errors with abbreviations.
+All names are normalized, which involves removing accents. For example, “Trần Văn” is transformed into “tran van”. Single-character tokens are excluded to reduce the risk of errors with abbreviations.
 
 **Table 1. Overview of name dataset used in the research** 
 
