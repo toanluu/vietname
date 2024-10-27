@@ -31,7 +31,7 @@ All names are normalized, which involves removing accents. For example, “Trầ
 | Unique unigrams | 276,890 |
 | Positive unigrams | 4,099 |
 
-The top 10 unigrams and bigrams from Vietnamese names are presented in **Table 2**, revealing that a few tokens dominate the majority of names. Approximately 4,000 unigrams constitute over 635,000 Vietnamese names, with 124 of them classified as highly discriminative (primarily appearing in Vietnamese names but rarely in names from other nations). These 124 discriminative names encompass over 84% of Vietnamese names in our dataset, with “nguyen” being the most prevalent, accounting for nearly 9%. 
+The top 10 unigrams from Vietnamese names are presented in **Table 2**, revealing that a few tokens dominate the majority of names. Approximately 4,000 unigrams constitute over 635,000 Vietnamese names, with 124 of them classified as highly discriminative (primarily appearing in Vietnamese names but rarely in names from other nations). These 124 discriminative names encompass over 84% of Vietnamese names in our dataset, with “nguyen” being the most prevalent, accounting for nearly 9%. 
 
 **Table 2. Top 10 unigrams from ~635K Vietnamese names**
 
@@ -48,7 +48,7 @@ The top 10 unigrams and bigrams from Vietnamese names are presented in **Table 2
 | pham | 2.01 | 
 | anh | 1.82 |
 
-If we use all 4000 unigrams as the query to retrieve Vietnamese names obviously we can reach to 100% recall. However the precision of result set is very low. The experiment from out dataset showed that when using nearly 1500 unigrams for query the precision already drops to 60% (Figure 1). Easyly see that among top 10 popular Vietnamese unigram, "le" and "van" certainly retrieve many fall positive cases which are European names.
+If we use all 4000 unigrams as the query to retrieve Vietnamese names obviously we can reach to ~100% recall. However the precision of result set is very low. The experiment from out dataset indicated that when using nearly 1500 unigrams for querying, the precision drops to 60% (Figure 1). Easily see that among top 10 popular Vietnamese unigram, "le" and "van" certainly retrieve many fall positive cases which are European names.
 
 **Figure 1. Precision and Recall (%) when using only unigram for retrieval**
 ![PrecRecallUnigrams](https://github.com/user-attachments/assets/908273c1-6ae2-446d-a4b4-1befe4254aba)
@@ -85,7 +85,7 @@ Top 10 bigrams and its percentage  are showed in *Table 3*. It's worth noting th
 | dinh van | 0.29 | 
 | le van | 0.29 |
 
-Figure 2 shows that after using 100 HD-Unigrams for retrieval (which reach recall at 86%), we start to use HD-Bigrams for the retrieval query on the experiment dataset. The presision of results remain at 99.9%, and the recall increases continuously to 98% with 2300 bigrams. 
+Figure 2 shows resuls after using 100 HD-Unigrams for retrieval (which reach recall at 86%), we start to use HD-Bigrams for the retrieval query on the experiment dataset. The presision of results remain at 99.9%, and the recall increases continuously to 98% with 2300 bigrams.
 
 Using 500 HDNs for Vietnamese name retrieval we can obtain recall at 95% and precision at 99.9%. If we want to limit number of queries to submit at 100 (this is very practical constrain because some systems limit number of queries submitted), then with 69 HD-Unigrams and 31 HD-Bigrams, we can obtain recall ~90% and precision >99.9%.
 
