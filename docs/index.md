@@ -99,7 +99,7 @@ Difference experiment setup is showed in  *Table 4* can help us to decide on how
 |  #Unigrams | #Bigrams | MinFrequency | MinConfidence | Precision | Recall | 
 |----|----|----|----|----|----|----|
 | 232 | 6311 | 10 | 0.90 |  99.762 | 99.072 | 
-| 179 | 3229 | 30 | 0.95 |  99.822 | 93.613 | 
+| 179 | 3229 | 30 | 0.95 |  99.808 | 98.758 | 
 | 111 | 2334 | 50 | 0.99 |  99.910 | 98.078 | 
 | 111 | 1329 | 100 | 0.99 |  99.919 | 97.437 |
 | 100 | 400 | 100 | 0.99 |  99.928 | 95.181 | 
