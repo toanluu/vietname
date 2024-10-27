@@ -68,6 +68,8 @@ A token or pair of tokens defined as *Higly Discriminative N-Gram* (HDN) if they
 
 The confidence score is calculated based on the estimated probability of a token being a Vietnamese name, derived from the dataset. However, we enhance the negative cases of tokens using a function to ensure that tokens frequently appearing in negative label names receive a very low confidence score. This negative amplification ensures that if a token is highly prevalent in Vietnamese names but is not rare in negative names, it is not considered highly discriminative. For example, name "le", appear in 180 negative names, which is only 0.3% of total 58152 names containing "le", but confidence score is 0.75, then it is not Higly Discriminative Unigram.
 
+Top 10 bigrams and its percentage  are showed in Table 3. It's worth noting that the most popular bigram “nguyen thi” is not included here because we generate bigrams only when the unigram is not a discriminative token. Since “nguyen” is a discriminative unigram for Vietnamese names, all bigrams containing it are not generated. This approach helps store the number of highly discriminative n-grams small for the efficient classifier in practice. In fact, the total generated bigrams are only 37,914 and 8,476 among them are discriminative which is simple to manage.
+
 **Table 3. Top 10 bigrams from ~635K Vietnamese names**
 
 | Bigram |  Percentage |
