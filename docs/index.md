@@ -87,5 +87,15 @@ Using 500 HDNs for Vietnamese Name retrieval we can obtains recall at 95% and pr
 
 ![PrecRecallNGrams](https://github.com/user-attachments/assets/b7515fc2-4d46-471c-a5e1-6e6711f36127)
 
+Diffirence setup:
+|  # Unigram | # Bigram | Min Frequency | Min Confidence | Precision | Recall | 
+|----|----|----|----|----|----|
+| 232 | 6311 | 10 | 0.90 |  99.762 | 99.072 | 
+| 179 | 3229 | 30 | 0.95 |  99.822 | 93.613 | 
+| 111 | 2334 | 50 | 0.99 |  99.910 | 98.078 | 
+| 111 | 1329 | 100 | 0.99 |  99.919 | 97.437 |
+| 100 | 400 | 100 | 0.99 |  99.928 | 95.181 |
+| 69 | 31 | 100 | 0.99 |  99.943 | 89.796 | 
+
 
 
