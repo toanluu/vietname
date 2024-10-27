@@ -2,11 +2,11 @@
 
 ## Introduction
 
-According to Wikipedia, there are more than [5 millions](https://en.wikipedia.org/wiki/Overseas_Vietnamese) overseas Vietnamese in the world. Detect Vietnamese names from big global database is useful for some applications and community activities.
+According to Wikipedia, there are more than [5 millions](https://en.wikipedia.org/wiki/Overseas_Vietnamese) overseas Vietnamese in the world. Detect Vietnamese names from the big global database is useful for some applications and community activities. This data aids in identifying experts across different fields and facilitates the matching of Vietnamese overseas experts with research and development activities in Vietnam. This solution will assist both the public and private sectors in Vietnam in attracting Vietnamese human resources from around the world, thereby contributing to the development of the country and serving as a bridge for Vietnam’s integration into the era of globalization.
 
 Recognizing Vietnamese names poses a challenge due to their shared Latin characters and similar word forms with names from other countries. For instance, the name “Nguyen” (folding form of popular surname Nguyễn or name Nguyên) is easily identifiable as Vietnamese. However, widespread Vietnamese surnames like “Lê” when written without accents, can be confused with common French prepositions like “Le” and “Đỗ” may be mistaken for the English verb “Do”. Furthermore, some names, such as “Vân” or “Văn”, sound distinctly Vietnamese but, when written without diacritics, can be confused with the common Dutch name “Van”.
 
-This research shows the statictics of Vietnamese name based on a big dataset and propose a set of Highly Discriminative Names to retrieve Vietnamese names with high precisiona with recall from any global name database.
+This research shows some statistics of Vietnamese name based on a big dataset and propose a set of Highly Discriminative Ngrams to retrieve Vietnamese names with high precision and recall from any global name database.
 
 ## Dataset
 
@@ -108,5 +108,8 @@ Difference experiment setup is showed in  *Table 4* can help us to decide on how
 
 ## Appendix
 
-List of  more than 400 Hightly Discriminative Unigrams & Bigram can be [download here](https://github.com/toanluu/vietname/blob/master/data/Top400-HighlyDiscriminative-VietNames.csv). Please cite "Discriminative Vietnamese Names by VietSearch" if you use this dataset for any publication.
+List of Highly Discriminative Unigrams and Biagrams can be [download here](https://github.com/toanluu/vietname/blob/master/data). Beside the name column, the frequency and confidence also provided to help decide on the quality of retrieval mentioned in *Table 4*. 
+
+Please cite "Discriminative Vietnamese Name Dataset by VietSearch" if you use this dataset for any publication or application.
+
 
