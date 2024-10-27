@@ -89,6 +89,7 @@ Figure 2 shows that after using 100 HD-Unigrams for retrieval (which reach recal
 
 Using 500 HDNs for Vietnamese name retrieval we can obtains recall at 95% and precision at 99.9%. If we want to limit number of queries to submit at 100 (this is very practical constrain because some systems limit number of queries submitted), then with 69 HD-Unigrams and 31 HD-Bigrams, we can obtain recall ~90% and precision >99.9%.
 
+**Figure 2. Precision and Recall (%) when using Hightly Discriminative Ngrams for retrieval**
 ![PrecRecallNGrams](https://github.com/user-attachments/assets/b7515fc2-4d46-471c-a5e1-6e6711f36127)
 
 ## Appendix
