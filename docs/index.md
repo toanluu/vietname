@@ -97,7 +97,7 @@ Difference experiment setup is showed in  *Table 4* can help us to decide on how
 **Table 4. Different experiment setup and results**
 
 |  #Unigrams | #Bigrams | MinFrequency | MinConfidence | Precision | Recall | 
-|----|----|----|----|----|----|----|
+|----|----|----|----|----|----|
 | 232 | 6311 | 10 | 0.90 |  99.762 | 99.072 | 
 | 179 | 3229 | 30 | 0.95 |  99.808 | 98.758 | 
 | 111 | 2334 | 50 | 0.99 |  99.910 | 98.078 | 
@@ -108,8 +108,8 @@ Difference experiment setup is showed in  *Table 4* can help us to decide on how
 
 ## Appendix
 
-List of Highly Discriminative Unigrams and Biagrams can be [download here](https://github.com/toanluu/vietname/blob/master/data). Beside the name column, the frequency and confidence also provided to help decide on the quality of retrieval mentioned in *Table 4*. 
+List of Highly Discriminative Unigrams and Bigrams can be [download here](https://github.com/toanluu/vietname/blob/master/data). Beside the name column, the frequency and confidence also provided to help decide on the quality of retrieval mentioned in *Table 4*. 
 
-Please cite "Discriminative Vietnamese Name Dataset by VietSearch" if you use this dataset for any publication or application.
+Please cite "Discriminative Vietnamese Name Dataset by VietSearch" if you use this dataset for the publication or application.
 
 
