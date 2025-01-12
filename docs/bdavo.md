@@ -40,9 +40,7 @@ Mặt khác, khi thu thập dữ liệu về chuyên gia, thường chúng ta qu
 Do vậy, nhóm nghiên cứu của dự án BDAVO đã tạo ra phương pháp phát hiện tên người Việt của riêng mình dựa trên:
 
 – Thống kê tên người Việt từ một nguồn có hơn 500.000 tên Việt
-
 – Tạo cây quyết định dựa trên các thống kê unigram, bigram (e.g. “le thi”, “thanh van”, …), n-grams
-
 – Áp dụng các phương pháp loại trừ dựa trên một số tập dữ liệu tên người nước ngoài.
 
 Cây quyết định phát hiện tên người Việt được mô tả trong hình 2:
