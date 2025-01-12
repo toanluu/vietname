@@ -55,7 +55,7 @@ Việc quyết định tên có chắc chắn là người Việt không dựa t
 
 Các trường hợp tên “nhập nhằng” khó dự doán, thường là tên có hai từ có cả tên người Việt lẫn nước ngoài từ tập dữ liệu đào tạo thì hệ thống phải dựa vào các tri thức khác để nhận biết: ví dụ phát hiện ngôn ngữ Vietnamese trong profile Linkedin, trường, viện đã từng học tập hay làm việc (các nhà khoa học gốc Việt có khả năng học và làm việc tại trường Việt Nam).
 
-Qua thử nghiệm dựa trên một mẫu 10.000 profile lấy từ hệ thống Linkedin mà tên trên Profile có ít nhất 1 từ trong 16 họ Việt thông dụng từ trang Wikipedia “Họ_người_Việt_Nam”, thuật toán VietName Detection của BDAVO đã tăng độ chính xác từ 71% lên 93% trong việc phát hiện 1 profile trên linkedin có phải là người Việt hay không.
+Qua thử nghiệm dựa trên một mẫu 10.000 profile lấy từ hệ thống Linkedin mà tên trên Profile có ít nhất 1 từ trong 16 họ Việt thông dụng từ trang Wikipedia “Họ người Việt Nam”, thuật toán VietName Detection của BDAVO đã tăng độ chính xác từ 71% lên 93% trong việc phát hiện 1 profile trên linkedin có phải là người Việt hay không.
 
 Trong năm 2019, giới khoa học Việt Nam có bàn luận về một nghiên cứu “A standardized citation metrics author database annotated for scientific field” của một nhóm giáo sư bên Mỹ kèm database khoảng 100.000 nhà khoa học có nhiều trích dẫn nhất và danh sách 40 nhà khoa học gốc Việt trong danh sách này. Thuật toán phát hiện tên người Việt của BDAVO đã tìm ra hơn 60 nhà khoa học có thể là người gốc Việt trong danh sách. Điều này thể hiện sự vượt trội hơn 30% khả năng phát hiện tên người Việt so với các phương pháp đơn giản.
 
