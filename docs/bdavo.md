@@ -123,4 +123,6 @@ Các công cụ tìm kiếm, mạng xã hội như Google, Linkedin, Facebook l�
 
 Nguồn cơ sở dữ liệu từ các hội, nhóm người Việt trên thế giới rất hạn chế việc truy cập và không có khả năng tự động cập nhật, không có các giao diện thân thiện với người dùng và chắc chắn thiếu các tính năng gợi ý thông mình và phát hiện mối liên hệ giữa các thực thể giữ liệu (ví dụ chuyên ngành liên quan) hay xử lý đa ngôn ngữ để việc khai thác nguồn dữ liệu được hiệu nhất.
 
-Hy vọng với một số phương pháp xử lý dữ liệu từ dự án BDAVO và các dự án tương tự khác sẽ giúp Việt Nam sớm có một nguồn Cơ sở dữ liệu tập trung và đầy đủ về các nhà khoa học người Việt trong và ngoài nước để phục vụ cho việc tìm kiếm, gợi ý nguồn nhân lực phù hợp với công việc chuyên môn
+Hy vọng với một số phương pháp xử lý dữ liệu từ dự án BDAVO và các dự án tương tự khác sẽ giúp Việt Nam sớm có một nguồn Cơ sở dữ liệu tập trung và đầy đủ về các nhà khoa học người Việt trong và ngoài nước để phục vụ cho việc tìm kiếm, gợi ý nguồn nhân lực phù hợp với công việc chuyên môn.
+
+Bài viết đăng trên Báo Tia Sáng: (https://tiasang.com.vn/doi-moi-sang-tao/ap-dung-cac-phuong-phap-xu-ly-du-lieu-xay-dung-he-tri-thuc-chuyen-gia-viet)
