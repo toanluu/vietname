@@ -18,7 +18,7 @@ Thông thường, một nền tảng tìm kiếm và phân tích thông tin gồ
 - Các thuật toán hỗ trợ khớp, xếp hạng, gợi ý dữ liệu liên quan khi có truy vấn;
 - Hệ thống giao diện và hiển thị thông tin cho người dùng; (6) Hệ thống quản trị nội dung, quản trị tri thức để có sự tương tác, can thiệp của con người hỗ trợ cho các hệ thống xử lý tự động.
 
-Ngoài ra hệ thống cần một cơ sở hạ tầng lưu trứữvà xử lý dữ liệu phân tán vì thường lượng dữ liệu khá nhiều và phải xử lý liên tục và nhanh nên sẽ hạn chế nếu chỉ chạy trên một máy, chẳng hạn có sự thay đổi về lược đồ dữ liệu, bắt buộc phải xử lý lại toàn bộ dữ liệu để đáp ứng lược đồ mới. Xử lý toàn bộ dữ liệu mất 8h trên một máy thì coi như mất một ngày làm việc đợi có hết kết quả. nếu chạy đồng thời bốn máy chỉ mất 2h thì sớm có kết quả để kiểm nghiệm trong ngày luôn.
+Ngoài ra hệ thống cần một cơ sở hạ tầng lưu trữ và xử lý dữ liệu phân tán vì thường lượng dữ liệu khá nhiều và phải xử lý liên tục và nhanh nên sẽ hạn chế nếu chỉ chạy trên một máy, chẳng hạn có sự thay đổi về lược đồ dữ liệu, bắt buộc phải xử lý lại toàn bộ dữ liệu để đáp ứng lược đồ mới. Xử lý toàn bộ dữ liệu mất 8h trên một máy thì coi như mất một ngày làm việc đợi có hết kết quả. nếu chạy đồng thời bốn máy chỉ mất 2h thì sớm có kết quả để kiểm nghiệm trong ngày luôn.
 
 Hệ thống BDAVO được thiết kế để đáp ứng đầy đủ các yêu cầu trên.
 
