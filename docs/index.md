@@ -83,7 +83,7 @@ Top 10 bigrams and its percentage  are showed in *Table 3*. It's worth noting th
 | hong le | 0.30 | 
 | thu tran | 0.30 | 
 | dinh van | 0.29 | 
-| le van | 0.29 |
+| le tran | 0.29 |
 
 Figure 2 shows resuls after using 100 HD-Unigrams for retrieval (which reach recall at 86%), we start to use HD-Bigrams for the retrieval query on the experiment dataset. The presision of results remain at 99.9%, and the recall increases continuously to 98% with 2300 bigrams.
 
@@ -110,6 +110,4 @@ Difference experiment setup is showed in  *Table 4* can help us to decide on how
 
 List of Highly Discriminative Unigrams and Bigrams can be [download here](https://github.com/toanluu/vietname/blob/master/data). Beside the name column, the frequency and confidence also provided to help decide on the quality of retrieval mentioned in *Table 4*. 
 
-Please cite "Discriminative Vietnamese Name Dataset by VietSearch" if you use this dataset for the publication or application.
-
-
+Please cite "Discriminative Vietnamese Name Dataset by VietSearch" if you use this dataset for a publication or a project.
