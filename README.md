@@ -1,12 +1,13 @@
-# A research about Vietnamese name
+# Highly discriminative features for Vietnamese name retrieval
 
-...and recommend a set of highly discriminative features for Vietnamese name retrieval from global dataset.
 
 Blog version: [Efficient Vietnamese Name Retrieval using Highly Discriminative N-Grams](https://toanluu.github.io/vietname/)
 
-Research paper: Under submision 
+Research paper: Under submission 
 
-**Main author:** Toan Luu
+**Author:** Toan Luu
+
+Other contributors: Lam Pham, Hung Mai.
 
 **Copyright:** VietSearch Global Technology Solution.
 
