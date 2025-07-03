@@ -3,7 +3,7 @@
 
 Blog version: [Efficient Vietnamese Name Retrieval using Highly Discriminative N-Grams](https://toanluu.github.io/vietname/)
 
-Research paper: Under submission 
+Research paper:  **Efficient Vietnamese Name Retrieval using Highly Discriminative N-Grams**, Journal of Data Science and Artificial Intelligence, 2025
 
 **Author:** Toan Luu
 
